@@ -1,0 +1,32 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: black;
+    padding: 20px;
+}
+.heading{
+    
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+.Card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+}
+.Card > h1{
+    text-align: center;
+}
+.Card > img{
+    
+    margin: 10px auto;
+    width: 320px;
+    height: 300px;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 74%);
+}
